@@ -7,7 +7,7 @@ describe 'Dancer' do
 
   it 'includes the Dance module' do
     
-      binding.pry
+    #  binding.pry
     expect(dancer).to have_instance_dance_methods
   end
 
