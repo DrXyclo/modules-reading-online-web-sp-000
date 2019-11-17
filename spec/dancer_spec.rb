@@ -1,5 +1,7 @@
 describe 'Dancer' do
   let(:dancer) {Dancer.new('Anna')}
+  
+  binding.pry
 
   it 'includes the Dance module' do
     expect(dancer).to have_instance_dance_methods
